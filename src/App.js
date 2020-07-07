@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from './pages/home';
 
 
 function App() {
   return (
- <div>Hello Word</div>
+ <div><Home></Home></div>
   );
 }
 
