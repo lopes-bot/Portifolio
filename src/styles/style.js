@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Nav = styled.div `
     background-color:  	#4682B4;
     height:60px;
+    width:1050px;
+    margin-left:160px;
     color:white;  
     padding-top:10px;   
 `;
@@ -109,3 +111,24 @@ export const NavTitle = styled.p `
     margin-left:50px;
     font-size: 20px;
 `;  
+export const BoxBar = styled.div `
+   
+  height: 15px;
+  padding: 5px;
+  border-radius:10px;
+  background-color: #ccc;
+  display: flex;
+
+`;
+
+export const BarProg = styled(BoxBar) `
+    --progress:${props => props.prog};
+   content: "";
+  width: calc(var(--progress) * 1%);
+  background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+  transition: all 0.2s ease;
+
+`;
+export const Tec = styled.h5 `
+
+`;

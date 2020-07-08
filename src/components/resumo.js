@@ -27,7 +27,7 @@ function Resumo() {
             <b>Freelance</b> - Home office desenvolvendo Api REST com Node.js e MongoDB e responsável pela criação de Algumas Aplicação Front-end com React js.
             </Text>
         </Card>
-
+        
   </Container>);
 }
 
