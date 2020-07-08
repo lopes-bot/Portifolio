@@ -108,7 +108,4 @@ export const NavTitle = styled.p `
     color: white;
     margin-left:50px;
     font-size: 20px;
-
-`;
-
-
+`;  
