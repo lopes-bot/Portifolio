@@ -93,3 +93,22 @@ export const But = styled.button `
     }
 
 `;
+
+export const NavStyle = styled.div `
+    background-color: #4682B4;
+    width:1020px;
+    margin-left:160px; 
+    border-left: 30px solid #0000cd;
+    border-top: 30px solid transparent; 
+    border-bottom: 30px solid transparent;
+    float:left;
+    
+`;
+export const NavTitle = styled.p `
+    color: white;
+    margin-left:50px;
+    font-size: 20px;
+
+`;
+
+
