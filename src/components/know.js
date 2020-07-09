@@ -27,6 +27,9 @@ function Know() {
           <Tec>Flutter</Tec>
           <BarProg prog="60"></BarProg>
 
+          <Tec>Figma</Tec>
+          <BarProg prog="50"></BarProg>
+
       </Card>
       <Card>
       <Tec>Node.Js</Tec>
@@ -47,6 +50,9 @@ function Know() {
         <BarProg prog="60"></BarProg>
         <Tec>MySQL</Tec>
         <BarProg prog="60"></BarProg>
+        
+        <Tec>Git</Tec>
+        <BarProg prog="65"></BarProg>
 
         
       </Card>

@@ -130,5 +130,27 @@ export const BarProg = styled(BoxBar) `
 
 `;
 export const Tec = styled.h5 `
+    
+`;
 
+export const BoxConatiner = styled(Container) `
+    display: inline-block;
+    text-align:center;
+    border-style: solid;
+    border-color:white;
+    border-width:1px;
+    width:500px ;
+    margin-left:0px;
+    border-radius:15px;
+    margin:20px;
+    box-shadow: 0 0 2em gray;
+    height:450px;
+    
+    
+`;
+export const TitleImg = styled.h4 `
+    margin:10px;
+`;
+export const TextImg = styled.p `
+    margin:10px;
 `;
