@@ -20,6 +20,9 @@ function Navbar() {
           <NavItem>
             <Link className='link'>Contato</Link>
           </NavItem>
+          <NavItem>
+            <Link className='link'>Habilidades</Link>
+          </NavItem>
         </UlItem>
       </Nav>
   

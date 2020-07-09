@@ -1,5 +1,5 @@
 import React from 'react';
-import { BoxConatiner , Container , TitleImg,TextImg} from '../styles/style';
+import { BoxConatiner , Container , TitleImg,TextImg } from '../styles/style';
 import './style.css';
 // import { Container } from './styles';
 
@@ -8,7 +8,7 @@ function Portifolio() {
   return(<>
   <Container>
       <BoxConatiner>
-          <TitleImg>SingMed</TitleImg>
+          <TitleImg>SigMed</TitleImg>
           <img className="img" src="img/sigmed.png" alt=""></img>
           <TextImg>Sistema de Gerenciamento de consultórios médico Front-end criando em React.js
              e Back-end criado usando Node.js, express e ProstgreSQL. </TextImg>
@@ -50,6 +50,20 @@ function Portifolio() {
           <img className="img" src="img/mattes.png" alt=""></img>
           <TextImg>Sistema para juntar pessoas a imoveis ou quartos compartilhados. 
             Front-end criado em React.js Beck-end feito com Node.js, express e PostgreSQL. </TextImg>
+        
+    </BoxConatiner>
+  </Container>
+  <Container>
+      <BoxConatiner>
+          <TitleImg>Quiz</TitleImg>
+          <img className="imgmobile" src="img/quiz.png" alt=""></img>
+          <TextImg>APP quiz sobre os Estados Unidos. APP Mobile criado com Dart e Flutter</TextImg>
+        
+    </BoxConatiner>
+    <BoxConatiner>
+          <TitleImg>Gorjeta APP</TitleImg>
+          <img className="imgmobile" src="img/conv.png" alt=""></img>
+          <TextImg>APP conversor Para calcular Gorjetas. APP Mobile criado com Dart e Flutter </TextImg>
         
     </BoxConatiner>
   </Container>

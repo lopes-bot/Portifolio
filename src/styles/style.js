@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Nav = styled.div `
     background-color:  	#4682B4;
     height:60px;
-    width:1050px;
-    margin-left:160px;
+    width:100%;
     color:white;  
     padding-top:10px;   
+    position: fixed;
 `;
 
 export const UlItem = styled.ul `
@@ -39,13 +39,14 @@ export const Title = styled.h3 `
     margin: 10px;
     margin-top:15px;
 `;
-export const FormCard = styled.h4 `
+export const FormCard = styled.p `
     text-align: left;
     margin-left: 20px;
     margin-top: 25px; 
-    color:#59ed78;
     padding: 5px;
+    background-color:#e8f5fc
 `;
+
 export const Text = styled.p `
     background-color:#e8f5fc;
     padding:30px;
@@ -54,39 +55,20 @@ export const Text = styled.p `
     font-size: 14px;
     line-height:160%;
 `;
-export const Box = styled.div `
-    background-color:#e8f5fc; 
-`;
-export  const  Name = styled.p `
-    color: black;
-    position: absolute;
-    top:153px;
-    left:1000px;
-`;
-export const Date = styled(Name) `
-    top:210px;
-    left:1080px;
-`;
-export const Phone = styled(Name) `
-    top:265px;
-    left:1040px;
-`;
-export const Email = styled(Name) `
-    top:320px;
-    left:955px;
-`;
+
 export const Linkicon = styled.a `
     margin:5px;
+    margin-top:10px;
 
 `;
 export const But = styled.button `
     background-color: 	#20B2AA;
     border-radius: 10px;
     height:35px;
+    width:160px;
     color: white;
-    position: absolute;
-    top:390px;
     border-style: none;
+    
     
     &:hover{
         background-color: tomato;
@@ -95,8 +77,12 @@ export const But = styled.button `
     }
 
 `;
+export const LinkBut = styled.a `
+    margin-top:-20px;
+`;
 
 export const NavStyle = styled.div `
+    margin-top:${props=>props.top};
     background-color: #4682B4;
     width:1020px;
     margin-left:160px; 
@@ -104,6 +90,7 @@ export const NavStyle = styled.div `
     border-top: 30px solid transparent; 
     border-bottom: 30px solid transparent;
     float:left;
+    
     
 `;
 export const NavTitle = styled.p `

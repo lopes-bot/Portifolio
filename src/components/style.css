@@ -7,13 +7,19 @@
     
 }
 
-.icon{
-    height: 50%;
-    width: 50%;
-}
 .img{
     height: 300px;
     width: 100%;
 
 
+}
+.imgmobile{
+    height: 300px;
+    width: 200px;
+}
+.social{
+    margin: 10px;
+}
+.curriculo{
+    margin-top: 10px;
 }

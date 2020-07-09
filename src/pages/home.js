@@ -12,10 +12,11 @@ import '../components/style.css';
 function Home() {
   return (<>
     <Navbar></Navbar>
+    <Fita name="Perfil" top="70px"></Fita>
     <Pefil></Pefil>
     <Fita name="Resumo"></Fita>
     <Resumo></Resumo>
-    <Fita name="Conhecimento"></Fita>
+    <Fita name="Habilidades"></Fita>
     <Know></Know>
     <Fita name="Portifólio"></Fita>
     <Portifolio></Portifolio>
