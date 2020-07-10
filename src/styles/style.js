@@ -39,12 +39,14 @@ export const NavItem = styled.li`
 export const Container = styled.div `
     width:80%;
     display: flex;
+    height:700px;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin-left:120px;
   
 `;
+
 export const Card = styled.div `
     height: 400px;
     width:500px;
