@@ -12,7 +12,7 @@ function Portifolio() {
           <TitleImg>SigMed</TitleImg>
           <img className="img" src="img/sigmed.png" alt=""></img>
           <TextImg>Sistema de Gerenciamento de consultórios médico Front-end criando em React.js
-             e Back-end criado usando Node.js, express e ProstgreSQL. </TextImg>
+             e Back-end criado usando Node.js, Express e ProstgreSQL. </TextImg>
         
     </BoxConatiner>
     <BoxConatiner>
@@ -27,7 +27,7 @@ function Portifolio() {
       <BoxConatiner>
           <TitleImg>Licitaboard</TitleImg>
           <img className="img" src="img/licitaboard.png" alt=""></img>
-          <TextImg>Sistema para monitora as licitações feitas pelo governo, dados disponibilizado pelo API do TCE
+          <TextImg>Sistema para monitora as licitações feitas pelo governo, dados disponibilizado pelo API do TCE.
              Front-end feito em Vue.js e Back-end feito com Node.js e MongoDB.</TextImg>
         
     </BoxConatiner>
@@ -43,14 +43,14 @@ function Portifolio() {
           <TitleImg>Mão na Massa</TitleImg>
           <img className="img" src="img/MNM.png" alt=""></img>
           <TextImg>Sistema para juntar trabalhadores informais a trabalhos em sua região.
-            Front-end feito com React.js Back-end criado com Node.js, express e MongoDB.</TextImg>
+            Front-end feito com React.js Back-end criado com Node.js, Express e MongoDB.</TextImg>
         
     </BoxConatiner>
     <BoxConatiner>
           <TitleImg>Mattes</TitleImg>
           <img className="img" src="img/mattes.png" alt=""></img>
           <TextImg>Sistema para juntar pessoas a imoveis ou quartos compartilhados. 
-            Front-end criado em React.js Beck-end feito com Node.js, express e PostgreSQL. </TextImg>
+            Front-end criado em React.js Beck-end feito com Node.js, Express e PostgreSQL. </TextImg>
         
     </BoxConatiner>
   </Container>

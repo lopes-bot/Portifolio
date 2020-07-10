@@ -24,7 +24,9 @@ function Resumo() {
             <Text>
             <b>SIMEPS</b> - Pau dos Ferros, Rio Grande do Norte
             Responsável por desenvolver as interfaces com o React js  e pela regra de negócios dos sistemas web feito com Node js.<br></br><br></br>
-            <b>Freelance</b> - Home office desenvolvendo Api REST com Node.js e MongoDB e responsável pela criação de Algumas Aplicação Front-end com React js.
+            <b>Freelance</b> - Home office desenvolvendo Api REST com Node.js, Express, MongoDB e PostgreSQL. 
+            Responsável pela criação de Algumas Aplicação Front-end com React.js, Vue.js.
+             Desenvolvedor de APP Mobile com React Native, Flutter.
             </Text>
         </Card>
         
