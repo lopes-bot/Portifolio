@@ -2,11 +2,12 @@ import React from 'react';
 import { BoxConatiner , Container , TitleImg,TextImg } from '../styles/style';
 import './style.css';
 // import { Container } from './styles';
+      
 
 function Portifolio() {
 
   return(<>
-  <Container>
+  <Container >
       <BoxConatiner>
           <TitleImg>SigMed</TitleImg>
           <img className="img" src="img/sigmed.png" alt=""></img>
@@ -22,7 +23,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container>
+  <Container >
       <BoxConatiner>
           <TitleImg>Licitaboard</TitleImg>
           <img className="img" src="img/licitaboard.png" alt=""></img>
@@ -37,7 +38,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container>
+  <Container >
       <BoxConatiner>
           <TitleImg>Mão na Massa</TitleImg>
           <img className="img" src="img/MNM.png" alt=""></img>
@@ -53,7 +54,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container>
+  <Container >
       <BoxConatiner>
           <TitleImg>Quiz</TitleImg>
           <img className="imgmobile" src="img/quiz.png" alt=""></img>

@@ -1,10 +1,10 @@
 import React from 'react';
 import {Container , Card , BarProg , Tec} from '../styles/style';
-
+      
 // import { Container } from './styles';
 
 function Know() {
-  return (<Container>
+  return (<Container >
       <Card>
         <Tec>HTML</Tec>
         <BarProg prog="100"></BarProg>

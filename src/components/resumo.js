@@ -1,11 +1,11 @@
 import React from 'react';
 import {Container , Card ,Title , Text } from '../styles/style';
-
+       
 // import { Container } from './styles';
 
 function Resumo() {
   return (
-  <Container>
+  <Container >
       
         <Card>
             <Title>Formação Acadêmica</Title>

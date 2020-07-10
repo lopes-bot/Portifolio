@@ -1,11 +1,12 @@
 import React from 'react';
 import {Card, Title,Container , FormCard ,Text ,Linkicon,But, LinkBut} from '../styles/style';
-import './style.css';        
+import './style.css';
+ 
 
-// import { Container } from './styles';
+
 
 function Perfil() {
-  return (<Container>
+  return (<Container  >
   
     <Card>
         <Title>Sobre Mim</Title>

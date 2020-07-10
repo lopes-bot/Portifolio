@@ -37,12 +37,13 @@ export const NavItem = styled.li`
     margin:15px;  
 `;
 export const Container = styled.div `
-    width:1050px;
+    width:80%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    margin-left:160px;
+    margin-left:100px;
+  
 `;
 export const Card = styled.div `
     height: 400px;
@@ -100,8 +101,9 @@ export const LinkBut = styled.a `
 export const NavStyle = styled.div `
     margin-top:${props=>props.top};
     background-color: #4682B4;
-    width:1020px;
-    margin-left:160px; 
+    width:77%;
+    margin-right:10px;
+    margin-left:100px; 
     border-left: 30px solid #0000cd;
     border-top: 30px solid transparent; 
     border-bottom: 30px solid transparent;

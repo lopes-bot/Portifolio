@@ -11,13 +11,17 @@ import '../components/style.css';
 
 // import { Container } from './styles';
 
+
+
+
 function Home() {
+  
   return (<>
     
     <Navbar></Navbar>
     <Mark></Mark>
     <Fita name="Perfil" top="20px"></Fita>
-    <Pefil></Pefil>
+    <Pefil ></Pefil>
     <Fita name="Resumo"></Fita>
     <Resumo></Resumo>
     <Fita name="Habilidades"></Fita>
