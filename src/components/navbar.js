@@ -23,9 +23,7 @@ function Navbar() {
           <NavItem>
             <Link to="habilidade" className='link'>Habilidades</Link>
           </NavItem>
-          <NavItem>
-            <Link to="" className='link'>Contato</Link>
-          </NavItem>
+         
           
         </UlItem>
       </Nav>

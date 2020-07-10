@@ -42,7 +42,7 @@ export const Container = styled.div `
     align-items: center;
     justify-content: center;
     background-color: white;
-    margin-left:100px;
+    margin-left:120px;
   
 `;
 export const Card = styled.div `
@@ -101,9 +101,8 @@ export const LinkBut = styled.a `
 export const NavStyle = styled.div `
     margin-top:${props=>props.top};
     background-color: #4682B4;
-    width:77%;
-    margin-right:10px;
-    margin-left:100px; 
+    width:78%;
+    margin-left:120px; 
     border-left: 30px solid #0000cd;
     border-top: 30px solid transparent; 
     border-bottom: 30px solid transparent;
@@ -173,4 +172,9 @@ export const TextB = styled.h1 `
 export const boxText = styled.div `
     margin-left:150px;
 
+`;
+export const Footer =  styled.footer `
+    background-color:#B0C4DE;
+    color:white;
+    height:100px;
 `;

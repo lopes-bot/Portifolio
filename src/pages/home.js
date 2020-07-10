@@ -5,8 +5,9 @@ import Resumo from '../components/resumo';
 import Fita from '../components/fita';
 import Portifolio from '../components/portfolio';
 import Know from '../components/know';
-import Contato from '../components/contato';
+//import Contato from '../components/contato';
 import Mark from '../components/mark';
+import{Footer} from '../styles/style';
 import '../components/style.css';
 
 // import { Container } from './styles';
@@ -28,8 +29,8 @@ function Home() {
     <Know ></Know>
     <Fita name="Portifólio"></Fita>
     <Portifolio ></Portifolio>
-    <Fita name="Contato"></Fita>
-    <Contato ></Contato>
+    <Footer></Footer>
+    
   
   </>
   );
