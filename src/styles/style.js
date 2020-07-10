@@ -9,6 +9,22 @@ export const Nav = styled.div `
     position: fixed;
 `;
 
+export const Mbox = styled.div `
+    background-color: #4682B4;
+    width: 100% ;
+    height:400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+`;
+export const MboxImg = styled.div `
+    height:300px;
+    width:300px;
+    background-color:#4682B4;
+
+`;
+
 export const UlItem = styled.ul `
     display: flex;
     align-items: center;
@@ -140,4 +156,19 @@ export const TitleImg = styled.h4 `
 `;
 export const TextImg = styled.p `
     margin:10px;
+   
+`;
+export const TextA = styled.h2 `
+color:white;
+margin-top:180px;
+margin-left:150px
+`;
+export const TextB = styled.h1 `
+    color:white;
+    margin-left:180px;
+    margin-top:10px;
+`;
+export const boxText = styled.div `
+    margin-left:150px;
+
 `;

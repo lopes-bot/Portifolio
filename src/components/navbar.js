@@ -8,21 +8,25 @@ function Navbar() {
   return (
       <Nav> 
         <UlItem>
-          <NavItem>
-            <Link className="link">Perfil</Link>
+        <NavItem>
+            <Link className="link" to="/">Home</Link>
           </NavItem>
           <NavItem>
-            <Link className='link'>Resumo</Link>
+            <Link to="perfil" className="link">Perfil</Link>
           </NavItem>
           <NavItem>
-            <Link className='link'>Portifólio</Link>
+            <Link to="resumo" className='link'>Resumo</Link>
           </NavItem>
           <NavItem>
-            <Link className='link'>Contato</Link>
+            <Link to="portifolio" className='link'>Portifólio</Link>
           </NavItem>
           <NavItem>
-            <Link className='link'>Habilidades</Link>
+            <Link to="habilidade" className='link'>Habilidades</Link>
           </NavItem>
+          <NavItem>
+            <Link to="" className='link'>Contato</Link>
+          </NavItem>
+          
         </UlItem>
       </Nav>
   

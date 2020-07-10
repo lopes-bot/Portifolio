@@ -23,3 +23,12 @@
 .curriculo{
     margin-top: 10px;
 }
+.boximg{
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+   background-color:#4c90c969 ;
+   border-radius: 500px;
+   box-shadow: 0 0 2em #4c91c9;
+   margin-left: 90px;
+}
