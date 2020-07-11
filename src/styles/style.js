@@ -30,7 +30,7 @@ export const UlItem = styled.ul `
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-right:200px;
+    margin-right:10%;
    
 `;
 
@@ -45,17 +45,19 @@ export const Logo = styled.li `
     text-decoration: none;
     list-style: none;
     @media(max-width: 1024px){
-        margin-right:20%;
+        margin-right:30%;
     }
     margin-right:50%;
 `;
 export const Container = styled.div `
     width:80%;
     display: flex;
-    align-items: center;
+    align-items: ${props=>props.item || "center"};
     justify-content: center;
     background-color: white;
     margin-left:120px;
+    height:${props=>props.tc || "100%"};
+    
   
 `;
 export const CC = styled(Container) `

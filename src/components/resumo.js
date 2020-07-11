@@ -1,12 +1,12 @@
 import React from 'react';
-import {Container , Card ,Title , Text ,CC } from '../styles/style';
+import {Container , Card ,Title , Text  } from '../styles/style';
        
 // import { Container } from './styles';
 
 function Resumo() {
   return (
     <>
-  <Container >
+  <Container tc="600px" item="initial"  >
       
         <Card>
             <Title>Formação Acadêmica</Title>
@@ -32,7 +32,7 @@ function Resumo() {
         </Card>
         
   </Container>
-    <CC></CC>
+    
   </>);
 }
 

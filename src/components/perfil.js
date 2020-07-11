@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Title,Container , FormCard ,Text ,Linkicon,But, LinkBut, CC} from '../styles/style';
+import {Card, Title,Container , FormCard ,Text ,Linkicon,But, LinkBut} from '../styles/style';
 import './style.css';
  
 
@@ -9,7 +9,7 @@ function Perfil() {
 
   return (
   <>
-  <Container  >
+  <Container tc="600px" item="initial"  >
   
     <Card>
         <Title>Sobre Mim</Title>
@@ -46,7 +46,7 @@ function Perfil() {
     
   
   </Container>
-  <CC></CC>
+  
   </>);
 }
 
