@@ -6,17 +6,30 @@
     color: tomato;
     
 }
-
-.img{
-    height: 300px;
-    width: 100%;
-
-
-}
 .imgmobile{
-    height: 300px;
-    width: 200px;
+    height: 70%;
+    width: 40%;
+   
 }
+.img{
+    height: 70%;
+    width: 95%;
+}
+@media(max-width: 1024px){
+    .img{
+        height: 50%;
+    }
+    
+    
+}
+@media(max-width: 1024px){
+    .imgmobile{
+        height: 65%;
+    }
+    
+    
+}
+
 .social{
     margin: 10px;
 }

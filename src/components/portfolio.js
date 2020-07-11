@@ -7,7 +7,7 @@ import './style.css';
 function Portifolio() {
 
   return(<>
-  <Container >
+  <Container  boxh="block" >
       <BoxConatiner>
           <TitleImg>SigMed</TitleImg>
           <img className="img" src="img/sigmed.png" alt=""></img>
@@ -23,7 +23,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container >
+  <Container boxh="block">
       <BoxConatiner>
           <TitleImg>Licitaboard</TitleImg>
           <img className="img" src="img/licitaboard.png" alt=""></img>
@@ -38,7 +38,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container >
+  <Container boxh="block" >
       <BoxConatiner>
           <TitleImg>Mão na Massa</TitleImg>
           <img className="img" src="img/MNM.png" alt=""></img>
@@ -54,7 +54,7 @@ function Portifolio() {
         
     </BoxConatiner>
   </Container>
-  <Container >
+  <Container boxh="block">
       <BoxConatiner>
           <TitleImg>Quiz</TitleImg>
           <img className="imgmobile" src="img/quiz.png" alt=""></img>

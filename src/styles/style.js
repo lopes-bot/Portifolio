@@ -57,7 +57,7 @@ export const Container = styled.div `
     background-color: white;
     margin-left:120px;
     height:${props=>props.tc || "100%"};
-    
+   
   
 `;
 export const CC = styled(Container) `
@@ -66,10 +66,12 @@ export const CC = styled(Container) `
 `;
 
 export const Card = styled.div `
-    height: 400px;
-    width:500px;
+   
     margin:15px;
     text-align: center;
+    height: 400px;
+    width:500px;
+    
 `;
 export const Title = styled.h3 `
     color: #00008B;
@@ -157,7 +159,7 @@ export const Tec = styled.h5 `
     
 `;
 
-export const BoxConatiner = styled(Container) `
+export const BoxConatiner = styled.div `
     display: inline-block;
     text-align:center;
     border-style: solid;
@@ -169,6 +171,12 @@ export const BoxConatiner = styled(Container) `
     margin:20px;
     box-shadow: 0 0 2em gray;
     height:450px;
+    @media(max-width: 1024px){
+        height:300px;
+        width:60%;
+        display:block;
+        
+    }
     
     
 `;
