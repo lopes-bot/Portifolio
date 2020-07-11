@@ -9,7 +9,7 @@ import {Footer} from '../styles/style';
 function Perfil() {
   return (<>
   <Navbar></Navbar>
-  <Fita name="Perfil" top="90px"></Fita>
+  <Fita name="Perfil" top="100px"></Fita>
   <Pefil></Pefil>
   <Footer></Footer>
   

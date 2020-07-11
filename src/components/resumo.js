@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container , Card ,Title , Text } from '../styles/style';
+import {Container , Card ,Title , Text ,CC } from '../styles/style';
        
 // import { Container } from './styles';
 
 function Resumo() {
   return (
+    <>
   <Container >
       
         <Card>
@@ -30,7 +31,9 @@ function Resumo() {
             </Text>
         </Card>
         
-  </Container>);
+  </Container>
+    <CC></CC>
+  </>);
 }
 
 export default Resumo;

@@ -9,7 +9,7 @@ import {Footer} from '../styles/style';
 function Portf() {
   return (<>
   <Navbar></Navbar>
-  <Fita name="Portifólio" top="90px"></Fita>
+  <Fita name="Portifólio" top="100px"></Fita>
     <Portifolio ></Portifolio>
     <Footer></Footer>
   </>);

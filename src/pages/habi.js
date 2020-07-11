@@ -8,7 +8,7 @@ import {Footer} from '../styles/style';
 function Habi() {
   return (<>
     <Navbar></Navbar>
-    <Fita name="Habilidades" top="90px"></Fita>
+    <Fita name="Habilidades" top="100px"></Fita>
     <Know ></Know>
     <Footer></Footer>
   </>);

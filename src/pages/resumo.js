@@ -9,7 +9,7 @@ import {Footer} from '../styles/style';
 function ResumoPage() {
   return (<>
     <Navbar></Navbar>
-    <Fita name="Resumo" top="90px"></Fita>
+    <Fita name="Resumo" top="100px"></Fita>
     <Resumo></Resumo>
     <Footer></Footer>
   </>);

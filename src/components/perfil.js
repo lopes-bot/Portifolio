@@ -1,12 +1,15 @@
 import React from 'react';
-import {Card, Title,Container , FormCard ,Text ,Linkicon,But, LinkBut} from '../styles/style';
+import {Card, Title,Container , FormCard ,Text ,Linkicon,But, LinkBut, CC} from '../styles/style';
 import './style.css';
  
 
 
 
 function Perfil() {
-  return (<Container  >
+
+  return (
+  <>
+  <Container  >
   
     <Card>
         <Title>Sobre Mim</Title>
@@ -27,7 +30,7 @@ function Perfil() {
           <FormCard><b>Telefone: </b>(88)99860-4361</FormCard>
          <FormCard><b>Email: </b> andrelopessfla@gmail.com</FormCard> 
 
-        <Title>Redes Sociais</Title>
+        <Title tm="60px">Redes Sociais</Title>
         <div className="social"> 
           <Linkicon href="https://github.com/lopes-bot"><img src='img/github.png' alt="github" /></Linkicon>
           <Linkicon href="https://www.facebook.com/andre.lopesdelima.79/"><img src='img/facebook.png' alt="github" /></Linkicon>
@@ -42,7 +45,9 @@ function Perfil() {
     </Card>
     
   
-  </Container>);
+  </Container>
+  <CC></CC>
+  </>);
 }
 
 export default Perfil;

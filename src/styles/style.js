@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.div `
     background-color:  	#4682B4;
-    height:60px;
+    height:80px;
     width:100%;
     color:white;  
     padding-top:10px;   
@@ -12,10 +12,11 @@ export const Nav = styled.div `
 export const Mbox = styled.div `
     background-color: #4682B4;
     width: 100% ;
-    height:400px;
+    height:460px;
     display:flex;
     align-items: center;
     justify-content: center;
+    
 
 `;
 export const MboxImg = styled.div `
@@ -28,23 +29,38 @@ export const MboxImg = styled.div `
 export const UlItem = styled.ul `
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    margin-right:200px;
+   
 `;
 
 export const NavItem = styled.li`
     text-decoration: none;
     list-style: none;
-    margin:15px;  
+    margin:15px; 
+    margin-left:10px; 
+`;
+export const Logo = styled.li `
+    
+    text-decoration: none;
+    list-style: none;
+    @media(max-width: 1024px){
+        margin-right:20%;
+    }
+    margin-right:50%;
 `;
 export const Container = styled.div `
     width:80%;
     display: flex;
-    height:700px;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin-left:120px;
   
+`;
+export const CC = styled(Container) `
+    height:100px;
+
 `;
 
 export const Card = styled.div `
@@ -55,8 +71,8 @@ export const Card = styled.div `
 `;
 export const Title = styled.h3 `
     color: #00008B;
-    margin: 10px;
-    margin-top:15px;
+    margin:10px;
+    margin-top:${props=>props.tm || "15px"};
 `;
 export const FormCard = styled.p `
     text-align: left;
@@ -161,15 +177,14 @@ export const TextImg = styled.p `
     margin:10px;
    
 `;
-export const TextA = styled.h2 `
+export const TextA = styled.h1 `
 color:white;
-margin-top:180px;
-margin-left:150px
+margin-top:100px;
+
 `;
-export const TextB = styled.h1 `
+export const TextB = styled.h2 `
     color:white;
-    margin-left:180px;
-    margin-top:10px;
+   
 `;
 export const boxText = styled.div `
     margin-left:150px;

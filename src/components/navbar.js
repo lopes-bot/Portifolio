@@ -1,5 +1,5 @@
 import React from 'react';
-import{Nav ,NavItem , UlItem} from '../styles/style';
+import{Nav ,NavItem , UlItem, Logo} from '../styles/style';
 import {Link} from 'react-router-dom';
 import "./style.css";
 // import { Container } from './styles';
@@ -7,7 +7,12 @@ import "./style.css";
 function Navbar() {
   return (
       <Nav> 
+        
         <UlItem>
+          <Logo>
+            <img  src="img/desenvolvimento-web.png" alt=""></img>
+          </Logo>
+          
         <NavItem>
             <Link className="link" to="/">Home</Link>
           </NavItem>
