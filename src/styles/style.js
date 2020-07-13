@@ -30,7 +30,7 @@ export const UlItem = styled.ul `
     display: flex;
     align-items: center;
     justify-content: end;
-    margin-right:10%;
+    margin-right:4%;
    
 `;
 
@@ -55,8 +55,11 @@ export const Container = styled.div `
     align-items: ${props=>props.item || "center"};
     justify-content: center;
     background-color: white;
-    margin-left:120px;
+    margin-left:10.5%;
     height:${props=>props.tc || "100%"};
+    @media(max-width: 1024px){
+        margin-left:10%; 
+    }
    
   
 `;
@@ -123,12 +126,16 @@ export const LinkBut = styled.a `
 export const NavStyle = styled.div `
     margin-top:${props=>props.top};
     background-color: #4682B4;
-    width:78%;
-    margin-left:120px; 
+    width:77.9%;
+    margin-left:10.5%; 
     border-left: 30px solid #0000cd;
     border-top: 30px solid transparent; 
     border-bottom: 30px solid transparent;
     float:left;
+    @media(max-width: 1024px){
+        width:77%;
+        margin-left:10%; 
+    }
     
     
 `;
