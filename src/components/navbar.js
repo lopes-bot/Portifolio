@@ -10,7 +10,8 @@ function Navbar() {
         
         <UlItem>
           <Logo>
-            <img  src="img/desenvolvimento-web.png" alt=""></img>
+            <Link to="perfil"> <img  src="img/programador.png" alt=""></img></Link>
+           
           </Logo>
           
         <NavItem>

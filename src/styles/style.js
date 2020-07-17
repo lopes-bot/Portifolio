@@ -104,7 +104,7 @@ export const Linkicon = styled.a `
 
 `;
 export const But = styled.button `
-    background-color: 	#20B2AA;
+    background-color: 	#4682B4;
     border-radius: 10px;
     height:35px;
     width:160px;
@@ -128,7 +128,7 @@ export const NavStyle = styled.div `
     background-color: #4682B4;
     width:77.9%;
     margin-left:10.5%; 
-    border-left: 30px solid #0000cd;
+    border-left: 30px solid #055ed6;
     border-top: 30px solid transparent; 
     border-bottom: 30px solid transparent;
     float:left;
@@ -158,7 +158,7 @@ export const BarProg = styled(BoxBar) `
     --progress:${props => props.prog};
    content: "";
   width: calc(var(--progress) * 1%);
-  background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+  background-color: hsl(210 , 80%, 50%);
   transition: all 0.2s ease;
 
 `;
