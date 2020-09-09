@@ -1,10 +1,13 @@
 import React from 'react';
 import Home from './pages/home';
-import './app.css'
+import StylesGlobal from './UI/StylesGlobal';
 
 function App() {
   return (
- <div><Home></Home></div>
+    <> 
+    <Home />
+    <StylesGlobal />
+    </>
   );
 }
 
