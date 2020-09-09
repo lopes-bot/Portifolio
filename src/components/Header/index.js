@@ -5,10 +5,10 @@ import logo from '../../assets/alogo.png';
 const NavRigth = ({open}) =>{
     return(
     <NavLink open={open}>
-        <li><a href="#profile">Perfil</a></li>
-        <li><a href="#resumo">Resumo</a></li>
-        <li><a href="#portifolio">Portifólio</a></li>
-        <li><a href="#skill">Habilidade</a></li>
+        <li><a href="#profile" className="link">Perfil</a></li>
+        <li><a href="#resumo" className="link">Resumo</a></li>
+        <li><a href="#portifolio" className="link">Portifólio</a></li>
+        <li><a href="#skill" className="link">Habilidade</a></li>
     </NavLink>
     );
 }
@@ -18,8 +18,8 @@ const Header = () => {
 
     return (
        <Nav>
-           <img alt="logo" src={logo}></img>
-           <Burger onClick={()=>{setOpen(!open); console.log(open)}} open={open}>
+           <a alt="home" href="#home"><img alt="logo" src={logo}></img></a>     
+           <Burger onClick={()=>{setOpen(!open)}} open={open}>
                <div />
                <div />
                <div />

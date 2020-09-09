@@ -7,8 +7,16 @@ export const Nav = styled.nav `
     display:flex;
     justify-content: space-between;
     align-items: center;
-    > img {
+    > a img {
       transform: scale(0.9,0.9);
+    }
+    @media (min-width:1024px){
+      height:10vh;
+      > a img {
+        margin-top:2%;
+        transform: scale(0.4,0.4);
+      }
+     
     }
   
 `;
@@ -39,6 +47,9 @@ export const Burger = styled.div `
     }
 
   }
+  @media (min-width:1024px){
+    display:none;
+  }
  
 `;
 
@@ -53,12 +64,32 @@ export const NavLink = styled.ul `
   >li{
     margin-top:4rem;
     margin-bottom:4rem;
+    list-style: none;
+    &:hover .link{
+        color: var(--color-secondary);
+    }
   }
   > li a{
     text-decoration: none;
     margin:2rem;
     color:#D5D5D5;
 
+  }
+  @media (min-width: 1024px){
+    transform:translateY(0);
+    font-size: 16px;
+    display: flex;
+    list-style: none;
+    position: relative;
+    top:0;
+    margin-left: 40%;
+    transition: all 0.5s ease-out;
+    >li {
+      margin: 0;
+      &:hover .link{
+        color: var(--color-secondary);
+      }
+    }
   }
 
   
