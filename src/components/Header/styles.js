@@ -7,11 +7,16 @@ export const Nav = styled.nav `
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    margin-top: -3.4rem;
     > a img {
       transform: scale(0.9,0.9);
     }
     @media (min-width:1024px){
       height:10vh;
+      width:100%;
+     
+      margin-top:-130px;
       > a img {
         margin-top:2%;
         transform: scale(0.4,0.4);
