@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width:100vw;
   height:10vh;
-  font-size:4rem;
+  font-size:3rem;
   color: var(${({bg}) => bg ? '--color-quaternary': '--color-secondary'}) ;
   padding: 2rem;
   > div {
@@ -12,4 +12,11 @@ export const Container = styled.div`
       height:1rem;
       border-radius: 15px;
   }
+  @media(min-width:1024px){
+    font-size:18px;
+    > div{
+      height:5px;
+    }
+  }
 `;
+

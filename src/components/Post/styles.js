@@ -8,27 +8,11 @@ export const Container = styled.section`
     
     > img {
         width:100%;
-        animation: slidein 6s cubic-bezier(1,-0.01,.93,.61);
+        animation: opac 7s cubic-bezier(1,-0.01,.93,.61);
         
         
     }
-    @keyframes slidein{
-        from{
-            margin-left:100%
-        }to{
-            margin-left:0%;
-        }
-    }
-    @media (min-width: 1024px){
-        display: flex;
-        width:100%;
-       > img {
-            height:500px;
-            width:500px;
-            animation: opac 5s cubic-bezier(.24,.76,.84,.51);
-            margin-left: 10rem;
-       } 
-       @keyframes opac{
+    @keyframes opac{
         100%{
             opacity: 1;
         }
@@ -43,8 +27,16 @@ export const Container = styled.section`
         0%{
             opacity: 0;
         }
-
-           
+    }
+    @media (min-width: 1024px){
+        display: flex;
+        width:100%;
+       > img {
+            height:500px;
+            width:500px;
+            margin-left: 10rem;
+       } 
+            
      }
     }
     

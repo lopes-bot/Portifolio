@@ -63,6 +63,7 @@ export const NavLink = styled.ul `
   background: var(--color-primary);
   width:100%;
   top:10rem;
+  z-index:3;
   font-size: 3rem;
   transform: ${({ open }) => open ? 'translateY(0)' : 'translateY(-100rem)'};
   transition: transform 0.5s ease-in-out;
