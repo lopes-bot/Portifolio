@@ -18,8 +18,8 @@ export default createGlobalStyle `
     --color-quaternary:#F8F8F8;
     --color-blue:#1E88E5;
     --color-border:#4070FF;
-    --color-brom:'#333333',
-    --color-dark_blue:'#003B5B',
+    --color-brom:'#333333';
+    --color-dark_blue:'#003B5B';
 }
 
 
