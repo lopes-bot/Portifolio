@@ -16,7 +16,7 @@ export const Nav = styled.nav `
       height:10vh;
       width:100%;
      
-      margin-top:-130px;
+     
       > a img {
         margin-top:2%;
         transform: scale(0.4,0.4);

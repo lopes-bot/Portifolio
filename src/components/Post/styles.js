@@ -22,12 +22,11 @@ export const Container = styled.section`
     @media (min-width: 1024px){
         display: flex;
         width:100%;
-        margin-top:8rem;
        > img {
             height:500px;
             width:500px;
             animation: opac 5s cubic-bezier(.24,.76,.84,.51);
-            margin-right:5%;
+            margin-left: 10rem;
        } 
        @keyframes opac{
         100%{
