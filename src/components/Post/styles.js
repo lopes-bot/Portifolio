@@ -4,7 +4,8 @@ export const Container = styled.section`
     width: 100vw;
     height: 80vh;
     background: var(--color-tertiary);
-
+    padding-top:15rem;
+    
     > img {
         width:100%;
         animation: slidein 6s cubic-bezier(1,-0.01,.93,.61);
@@ -55,6 +56,7 @@ export const Text = styled.div `
     text-align:left;
     color: var(--color-secondary);
     margin:5%;
+    
     @media (min-width: 1024px){
         height:10rem;
         width:40rem;
