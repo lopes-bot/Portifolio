@@ -4,6 +4,7 @@ import Post from '../components/Post';
 import Profile from '../components/Profile';
 import Resume from '../components/Resume';
 import Portifolio from  '../components/Portifolio';
+import Footer from '../components/Footer';
 
 function Home() {
   
@@ -13,6 +14,7 @@ function Home() {
     <Profile />
     <Resume />
     <Portifolio />
+    <Footer />
   </>
   );
 }

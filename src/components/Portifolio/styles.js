@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    height: 300rem;
+    height: 310rem;
     width:100%;
     background: var(--color-secondary);
     margin-top:40rem;
@@ -11,7 +11,7 @@ export const Container = styled.section`
 
     @media (min-width: 1024px){
         flex-direction: row;
-        height:800px;
+        height:900px;
         margin-top:0;
        
     }
@@ -69,6 +69,7 @@ export const Card = styled.div `
         flex-direction: row;
         flex-wrap: wrap;
         margin-left:80px;
+        margin-top:100px;
     }
  
  `;

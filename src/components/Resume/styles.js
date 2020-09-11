@@ -7,7 +7,7 @@ export const Container = styled.section`
     
     @media (min-width: 1024px){
         width: 1351px;
-        height: 600px;
+        height: 800px;
     
     }
   
