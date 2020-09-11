@@ -3,7 +3,10 @@ import bntUrl from '../../assets/excluir.png';
 export const Container = styled.section`
     width: 100vw;
     height: 100vh;
-    
+    padding-top:4rem;
+    @media (min-width: 1024px){
+        width: 1351px;
+    }
   
 `;
 export const Info = styled.div `
@@ -25,11 +28,30 @@ export const Info = styled.div `
       cursor: pointer;
 
     }
+    @media (min-width: 1024px){
+        font-size:20px; 
+        width:500px;
+        margin-left: 100px;
+        .bnt{
+            margin-left:450px;
+            width:25px;
+            height:25px;
+       }
+        
+    }
 
 `;
 export const Row = styled.div `
- padding: 2rem;
-
+    padding: 2rem;
+    @media (min-width: 1024px){
+       display:flex; 
+       justify-content: center;
+       margin: 0; 
+       margin-top:100px; 
+       padding:0;
+       width:100%;
+       
+    }
 `;
 
 export const Button = styled.button `
@@ -44,9 +66,16 @@ export const Button = styled.button `
       border: none;
       cursor:pointer;
       transition: 1s;
-      margin-left: 12rem;
+      margin-left: 12.5rem;
       &:hover{
       background: var(--color-border);
       border:none;
       }
+        @media (min-width: 1024px){
+            font-size:16px;
+            width:100px;
+            height: 40px;
+            border-radius:5px;
+            margin-left:400px;
+        }
 `;

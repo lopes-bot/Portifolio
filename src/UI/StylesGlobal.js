@@ -8,7 +8,7 @@ export default createGlobalStyle `
         box-sizing:border-box;
     }
 
-    *,button,input{
+    *,button,input , h1 ,h2,h3,h4,h5,p{
         font-family: Roboto,sans-serif,;
     }
     html{

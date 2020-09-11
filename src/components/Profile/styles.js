@@ -18,9 +18,11 @@ export const Container = styled.section`
       font-size:3rem;
       border-radius: 1rem;
       margin-top:2rem;
+      margin-bottom:2rem;
       border: none;
       cursor:pointer;
       transition: 1s;
+
     }
     > button:hover{
       background: var(--color-border);

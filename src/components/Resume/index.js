@@ -27,8 +27,8 @@ function Resume() {
    const [visibleInfo, setVisibleInfo] = useState(true); 
   return (<Container id='resumo'>
     <TitleSection title="Resumo"  bar="14"/>
-    <Row>
-        <Info>
+    <Row >
+        <Info >
             <h3>{data[0].title}</h3>
             {!visible && <button className="bnt" onClick={()=>{setVisible(true); console.log(visible)}}></button>}
             <p> <strong>Bacharelado: </strong>{data[0].couser[0].bacharelado}</p>
@@ -39,7 +39,7 @@ function Resume() {
             {visible && <Button onClick={()=>{setVisible(false)}}>Saiba Mais</Button>}
             
         </Info>
-        <Info>
+        <Info >
             <h3>{data[1].title}</h3>
             {!visibleInfo && <button className="bnt" onClick={()=>{setVisibleInfo(true)}}></button>}
             <p><strong>Empresa: </strong>{data[1].job[0].company}</p>
