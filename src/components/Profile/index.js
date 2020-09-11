@@ -13,8 +13,8 @@ function Profile() {
 
   return (<Container id="profile">
         <TitleSection title="Perfil" variant="lg" bar="10"/>
-        <Box id="box">
-              <Row id="row">
+        <Box>
+              <Row >
                 <Foto>
                     <img alt="André Lopes" src={Andre}></img>
                 </Foto>

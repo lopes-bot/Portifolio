@@ -14,12 +14,15 @@ export const Container = styled.div`
   }
   @media(min-width:1024px){
     font-size:24px;
-    width:1351px;
+    width:200px;
+    
     > div{
       height:10px;
+      display:none;
     }
     >h3{
       margin-left:50px;
+      
     }
   }
 `;
