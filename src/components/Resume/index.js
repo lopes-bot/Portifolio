@@ -3,6 +3,7 @@ import React ,{useState} from 'react';
 import { Container , Info , Row , Button} from './styles';
 import TitleSection from '../../UI/TitleSection';
 import data from '../../data/Resume';
+import CV from '../../assets/CV.pdf';
 
 const InfoExtra = () =>{
     return(<>
@@ -47,8 +48,10 @@ function Resume() {
             <p><strong>Descrição: </strong>{data[1].job[0].description}</p>
             <br></br>
             {!visibleInfo && <InfoExtraJob />}
+            {visibleInfo && <a href={CV}>Baixar Currículo</a>}            
+            <br></br>
             {visibleInfo && <Button onClick={()=>{setVisibleInfo(false)}}>Saiba Mais</Button>}
-            
+            {!visibleInfo && <a href={CV}>Baixar Currículo</a>}
         </Info>
         
     </Row>

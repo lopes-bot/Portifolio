@@ -28,6 +28,14 @@ export const Info = styled.div `
       cursor: pointer;
 
     }
+    > a {
+        text-decoration: none;
+        font-size:4rem;
+        color: #1E88E5;
+    }
+    > a:hover{
+        color: var(--color-border);
+    }
     @media (min-width: 1024px){
         font-size:20px; 
         width:500px;
@@ -36,6 +44,10 @@ export const Info = styled.div `
             margin-left:450px;
             width:25px;
             height:25px;
+       }
+       > a {
+        font-size:20px;
+        margin-left:300px; 
        }
         
     }
