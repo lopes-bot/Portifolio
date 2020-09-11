@@ -4,8 +4,11 @@ export const Container = styled.section`
     width: 100vw;
     height: 100vh;
     padding-top:4rem;
+    
     @media (min-width: 1024px){
         width: 1351px;
+        height: 600px;
+    
     }
   
 `;
