@@ -19,6 +19,7 @@ export const Container = styled.section`
       margin-top:2rem;
       border: none;
       cursor:pointer;
+      transition: 1s;
     }
     > button:hover{
       background: var(--color-border);
@@ -90,7 +91,10 @@ export const Info = styled.div `
       margin-left:40rem;
       background:var(--color-secondary);
       border:none;
+      border-radius: 20px;
+      transition: 2s;
     }
+    
     > h5{
         margin-top:1rem;
             
@@ -106,6 +110,7 @@ export const Info = styled.div `
         width:25px;
         height:25px;
       }
+       
     }
 
 `;

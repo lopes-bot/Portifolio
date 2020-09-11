@@ -31,6 +31,9 @@ export const Container = styled.section`
     @media (min-width: 1024px){
         display: flex;
         width:100%;
+        padding: 0;
+        height:300px;
+        padding-top: 100px;
         
        > img {
             height:500px;
