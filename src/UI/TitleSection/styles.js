@@ -18,6 +18,9 @@ export const Container = styled.div`
     > div{
       height:10px;
     }
+    >h3{
+      margin-left:50px;
+    }
   }
 `;
 

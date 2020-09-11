@@ -8,7 +8,7 @@ export const Container = styled.section`
     
     > img {
         width:100%;
-        animation: opac 7s cubic-bezier(1,-0.01,.93,.61);
+        animation: opac 1s cubic-bezier(1,-0.01,.93,.61);
         
         
     }
@@ -32,8 +32,8 @@ export const Container = styled.section`
         display: flex;
         width:100%;
         padding: 0;
-        height:300px;
-        padding-top: 100px;
+        height:400px;
+        padding-top: 200px;
         
        > img {
             height:500px;

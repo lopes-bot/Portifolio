@@ -4,7 +4,6 @@ import { Container , Foto , Info ,Row ,Box} from './styles';
 import TitleSection from '../../UI/TitleSection';
 import Andre from '../../assets/andre.png';
 import data from '../../data/Profile';
-import Button from '../../UI/Button';
 
 function Profile() {
   let frase = data[1].description.substring(0,125);
@@ -28,7 +27,7 @@ function Profile() {
                 </Info> 
                  <Info>
                     <h3>{data[1].title}</h3>
-                    {!visible && <button className="bnt" onClick={()=>{setVisible(true); setTexto(frase)}}><Button /></button>}
+                    {!visible && <button className="bnt" onClick={()=>{setVisible(true); setTexto(frase)}}></button>}
                     <h5>{texto}</h5>
                     
                   </Info>

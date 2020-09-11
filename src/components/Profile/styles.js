@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import bntUrl from '../../assets/excluir.png';
 
 export const Container = styled.section`
     width:100vw;
@@ -28,8 +29,8 @@ export const Container = styled.section`
     }
     @media (min-width: 1024px){
       display:block;
-      height:400px;
-      width:1351px;
+      height:700px;
+      width:100%;
       > button{
         font-size:16px;
         width:100px;
@@ -89,26 +90,35 @@ export const Info = styled.div `
       width:8rem;
       height:8rem;
       margin-left:40rem;
-      background:var(--color-secondary);
+      background-image: url(${bntUrl});
+      background-repeat:no-repeat;
+      background-size: cover;
       border:none;
-      border-radius: 20px;
+      border-radius: 20rem;
       transition: 2s;
+      cursor: pointer;
+
     }
     
     > h5{
         margin-top:1rem;
+        padding-left: 2rem;
             
     }
     @media(min-width: 1024px){
       
       font-size: 20px;
-      width:500px;
+      width:600px;
       display:block;
       height:200px;
       .bnt{
-        margin-left:200px;
+        margin-left:300px;
         width:25px;
         height:25px;
+      }
+      >h5 {
+        padding-left:0;
+
       }
        
     }
@@ -123,6 +133,8 @@ export const Row = styled.div `
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left:80px;
+    
     
     
   }
