@@ -13,9 +13,10 @@ export const Container = styled.div`
       border-radius: 15px;
   }
   @media(min-width:1024px){
-    font-size:18px;
+    font-size:24px;
+    width:1351px;
     > div{
-      height:5px;
+      height:10px;
     }
   }
 `;

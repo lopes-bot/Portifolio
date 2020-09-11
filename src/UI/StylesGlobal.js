@@ -11,6 +11,9 @@ export default createGlobalStyle `
     *,button,input{
         font-family: Roboto,sans-serif,;
     }
+    html{
+    scroll-behavior: smooth;
+    }
     :root{
     --color-primary:#06608A;
     --color-secondary:#4C8DAA;

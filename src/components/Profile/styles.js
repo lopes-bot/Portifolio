@@ -8,6 +8,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5rem;
     > button {
       width:50vw;
       height:7rem;
@@ -25,9 +26,17 @@ export const Container = styled.section`
       
     }
     @media (min-width: 1024px){
-       width:100%;
-       height: 1200px;
-       flex-wrap: wrap;
+      display:block;
+      height:400px;
+      width:1351px;
+      > button{
+        font-size:16px;
+        width:100px;
+        height: 40px;
+        border-radius:5px;
+        margin-left:81%;
+        margin-top: -300px;
+      }
     }
     
     
@@ -45,11 +54,21 @@ export const Foto = styled.div `
     border-radius: 50rem;
   }
   @media(min-width: 1024px){
-    height:200px ;
-    width:200px;
+    
+      border:none;
+      height:210px;
+      width:210px;
+      display:block;
+      margin-top:110px;
+      border-radius:100px;
+      border: solid white;
+      border-width: 5px;
+
     > img{
-      height:200px ;
+      
+      height:200px;
       width:200px;
+      border-radius:100px;
     }
   }
 `;
@@ -77,14 +96,16 @@ export const Info = styled.div `
             
     }
     @media(min-width: 1024px){
-      font-size: 18px;
-      padding-left: 0px;
-      width:95%;
-      > h5{
-        width:100%;
-        
-      }
       
+      font-size: 20px;
+      width:500px;
+      display:block;
+      height:200px;
+      .bnt{
+        margin-left:200px;
+        width:25px;
+        height:25px;
+      }
     }
 
 `;
@@ -92,4 +113,24 @@ export const Row = styled.div `
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  @media (min-width: 1024px){
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+  }
+`;
+
+export const Box = styled(Container) `
+    margin-top: -2rem;
+    @media (min-width: 1024px){
+      
+      font-size:16px;
+      padding:0;
+      display: flex;
+      display:block;
+      height:500px;
+    }
 `;

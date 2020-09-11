@@ -31,10 +31,11 @@ export const Container = styled.section`
     @media (min-width: 1024px){
         display: flex;
         width:100%;
+        
        > img {
             height:500px;
             width:500px;
-            margin-left: 10rem;
+            margin-left: 4rem;
        } 
             
      }

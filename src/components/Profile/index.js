@@ -1,6 +1,6 @@
 import React,{useState}  from 'react';
 
-import { Container , Foto , Info ,Row} from './styles';
+import { Container , Foto , Info ,Row ,Box} from './styles';
 import TitleSection from '../../UI/TitleSection';
 import Andre from '../../assets/andre.png';
 import data from '../../data/Profile';
@@ -14,27 +14,31 @@ function Profile() {
 
   return (<Container id="profile">
         <TitleSection title="Perfil" variant="lg" bar="10"/>
-        <Row>
-          <Foto>
-              <img alt="André Lopes" src={Andre}></img>
-          </Foto>
-          <Info>
-              <h3>{data[0].title}</h3>
-              <h5>Nome: {data[0].name}</h5>
-              <h5>Email: {data[0].email}</h5>
-              <h5>Telefone: {data[0].telephone}</h5>
-              <h5>Data de Nascimento: {data[0].date}</h5>
-          </Info> 
-        </Row>
-        
-        <Info>
-            <h3>{data[1].title}</h3>
-            {!visible && <button className="bnt" onClick={()=>{setVisible(true); setTexto(frase)}}><Button /></button>}
-             <h5>{texto}</h5>
+        <Box id="box">
+              <Row id="row">
+                <Foto>
+                    <img alt="André Lopes" src={Andre}></img>
+                </Foto>
+                <Info>
+                    <h3>{data[0].title}</h3>
+                    <h5>Nome: {data[0].name}</h5>
+                    <h5>Email: {data[0].email}</h5>
+                    <h5>Telefone: {data[0].telephone}</h5>
+                    <h5>Data de Nascimento: {data[0].date}</h5>
+                </Info> 
+                 <Info>
+                    <h3>{data[1].title}</h3>
+                    {!visible && <button className="bnt" onClick={()=>{setVisible(true); setTexto(frase)}}><Button /></button>}
+                    <h5>{texto}</h5>
+                    
+                  </Info>
+            </Row>
             
-        </Info>
+           
+            
+            {visible &&  <button onClick={()=>{setVisible(false); setTexto(data[1].description)}}>Saiba Mais</button>}
+        </Box>
         
-        {visible &&  <button onClick={()=>{setVisible(false); setTexto(data[1].description)}}>Saiba Mais</button>}
   </Container>);
 }
 
