@@ -15,8 +15,8 @@ const InfoExtra = () =>{
 }
 const InfoExtraJob = () =>{
     return(<>
-            <p><strong>Empresa: </strong>{data[1].job[1].company}</p>
-            <p><strong>Endereço: </strong>{data[1].job[1].location}</p>
+           
+            <p><strong>{data[1].job[1].company}: </strong>{data[1].job[1].location}</p>
             <p><strong>Descrição: </strong>{data[1].job[1].description}</p> 
     </>);
 }
@@ -37,7 +37,7 @@ function Resume() {
             <p>Status: {data[0].couser[0].status}</p>
             <br></br>
             {!visible && <InfoExtra />  }
-            {visible && <Button onClick={()=>{setVisible(false)}}>Saiba Mais</Button>}
+            {visible && <Button id="bnt2" onClick={()=>{setVisible(false)}}>Saiba Mais</Button>}
             
         </Info>
         <Info >
@@ -48,9 +48,12 @@ function Resume() {
             <p><strong>Descrição: </strong>{data[1].job[0].description}</p>
             <br></br>
             {!visibleInfo && <InfoExtraJob />}
+            
             {visibleInfo && <a href={CV}>Baixar Currículo</a>}            
             <br></br>
-            {visibleInfo && <Button onClick={()=>{setVisibleInfo(false)}}>Saiba Mais</Button>}
+            <br></br>
+            <br></br>
+            {visibleInfo && <Button id="bnt1" onClick={()=>{setVisibleInfo(false)}}>Saiba Mais</Button>}
             {!visibleInfo && <a href={CV}>Baixar Currículo</a>}
         </Info>
         

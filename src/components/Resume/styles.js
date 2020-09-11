@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import bntUrl from '../../assets/excluir.png';
 export const Container = styled.section`
     width: 100vw;
-    height: 100vh;
+    height: 112rem;
     padding-top:4rem;
+   
     
     @media (min-width: 1024px){
         width: 1351px;
@@ -47,6 +48,13 @@ export const Info = styled.div `
             margin-left:450px;
             width:25px;
             height:25px;
+            
+       }
+       #bnt1{
+           margin-top: -10px;
+       }
+       #bnt2{
+           margin-top: 64px;
        }
        > a {
         font-size:20px;
