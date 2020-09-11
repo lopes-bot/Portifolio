@@ -48,6 +48,7 @@ export const Info = styled.div `
        > a {
         font-size:20px;
         margin-left:300px; 
+        
        }
         
     }
