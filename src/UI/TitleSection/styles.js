@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width:100vw;
   height:10vh;
+  margin-top:5rem;
   font-size:3rem;
   color: var(${({bg}) => bg ? '--color-quaternary': '--color-secondary'}) ;
   padding: 2rem;
