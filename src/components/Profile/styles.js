@@ -3,7 +3,7 @@ import bntUrl from '../../assets/excluir.png';
 
 export const Container = styled.section`
     width:100vw;
-    height: 145rem;
+    height: 180rem;
     background: var(--color-secondary);
     margin-top: 26rem;
     display: flex;

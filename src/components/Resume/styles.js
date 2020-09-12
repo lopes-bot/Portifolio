@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import bntUrl from '../../assets/excluir.png';
 export const Container = styled.section`
     width: 100vw;
-    height: 112rem;
+    height: 130rem;
     padding-top:4rem;
    
     

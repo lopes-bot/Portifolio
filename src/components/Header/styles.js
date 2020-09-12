@@ -8,7 +8,7 @@ export const Nav = styled.nav `
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    
+    z-index:20;
     > a img {
       transform: scale(0.9,0.9);
     }

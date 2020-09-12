@@ -10,7 +10,7 @@ import React from 'react';
  import data from '../../data/Card';
 function Portifolio() {
   return (<Container id='portifolio'>
-      <TitleSection title="Portifolío" variant="lg" bar="10"/>
+      <TitleSection title="Portifolío" variant="lg" bar="17"/>
       <Box>
             <Card >
             <h2>{data[0].title}</h2>
