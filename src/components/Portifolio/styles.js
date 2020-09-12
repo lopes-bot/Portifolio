@@ -20,8 +20,8 @@ export const Container = styled.section`
 `;
 
 export const Card = styled.div `
-    height:70vh;
-    width:90vw;
+    height:60rem;
+    width:55rem;
     margin-left:3rem;
     margin-top:4rem;
     background: var(--color-quaternary);
@@ -32,7 +32,7 @@ export const Card = styled.div `
     border-radius: 2rem;
     > img {
         width:84vw;
-        height:50rem;
+        height:40rem;
     }
     &:hover{
         transition:1s;
@@ -48,7 +48,7 @@ export const Card = styled.div `
         margin-top:0; 
         margin: 10px;
         > img {
-            width:200px;
+            width:300px;
             height:150px;
         }
         &:hover{
@@ -68,7 +68,7 @@ export const Card = styled.div `
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-left:80px;
+        margin-left:100px;
         margin-top:100px;
     }
  

@@ -46,15 +46,15 @@ export const Container = styled.section`
     
 `;
 export const Foto = styled.div `
-  width:80vw;
-  height:50vh;
+  width:49rem;
+  height:49rem;
   background: var(--color-quaternary);
   border: solid var(--color-quaternary);
   border-width: 2rem;
   border-radius: 50rem;
   > img {
-    width:74vw;
-    height:45.8vh; 
+    width:45rem;
+    height:45rem; 
     border-radius: 50rem;
   }
   @media(min-width: 1024px){
