@@ -6,6 +6,7 @@ export const Container = styled.section`
     background: var(--color-secondary);
     margin-top:40rem;
     display: flex;
+    padding-top:5rem;
     
     flex-direction: column;
 
@@ -13,6 +14,7 @@ export const Container = styled.section`
         flex-direction: row;
         height:900px;
         margin-top:0;
+        padding-top:50px;
        
     }
    

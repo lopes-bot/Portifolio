@@ -35,7 +35,7 @@ export const Burger = styled.div `
     background: #D5D5D5;
     width:5rem;
     height:0.6rem;
-    margin: ${({open}) => open ? '5px' : '18px'};
+    margin: ${({open}) => open ? '16px' : '18px'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

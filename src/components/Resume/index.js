@@ -34,7 +34,7 @@ function Resume() {
             {!visible && <button className="bnt" onClick={()=>{setVisible(true); console.log(visible)}}></button>}
             <p> <strong>Bacharelado: </strong>{data[0].couser[0].bacharelado}</p>
             <p><strong>{data[0].couser[0].university} -</strong> {data[0].couser[0].location}</p>
-            <p>Status: {data[0].couser[0].status}</p>
+            <p><strong>Status: </strong>{data[0].couser[0].status}</p>
             <br></br>
             {!visible && <InfoExtra />  }
             {visible && <Button id="bnt2" onClick={()=>{setVisible(false)}}>Saiba Mais</Button>}
