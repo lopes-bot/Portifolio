@@ -73,12 +73,15 @@ export const NavLink = styled.ul `
     list-style: none;
     &:hover .link{
         color: var(--color-secondary);
+        border-bottom: solid;
+       
     }
   }
   > li a{
     text-decoration: none;
     margin:2rem;
     color:#D5D5D5;
+   
 
   }
   @media (min-width: 1024px){
