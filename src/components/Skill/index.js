@@ -1,9 +1,9 @@
 import React, {useState , useEffect} from 'react';
 import axios from 'axios';
 import TitleSection from '../../UI/TitleSection';
-import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
-import { Container , Row} from './styles';
+import { Container , Row , Button} from './styles';
 const api = 'https://api.github.com/users/lopes-bot/repos'
 
 function  Skill() {
@@ -69,10 +69,10 @@ function  Skill() {
           
           </BarChart> 
           <p>Projetos e suas respectivas tecnologias </p>
-      
          
+                
     </Row>
-    
+      <Button href="https://github.com/lopes-bot?tab=repositories">Saiba mais sobre os Repositorios</Button>
   </Container>);
 }
 

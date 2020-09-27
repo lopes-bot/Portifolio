@@ -6,6 +6,7 @@ export const Container = styled.section`
     @media (min-width: 1024px){
         padding-top:50px;
         height: 100%;
+        margin-bottom:50px;
     }
     
     
@@ -29,5 +30,28 @@ export const Row = styled.div `
         
         
     }
+    
 
  `;
+
+export const Button = styled.a `
+    width:50vw;
+    height:7rem;
+    font-size:2.5rem;
+    margin-top:2rem;
+    margin-left:12rem;
+    color:  var(--color-primary);
+    cursor:pointer;
+    &:hover{
+        color: salmon;
+        text-decoration: inherit;
+    }
+    @media (min-width: 1024px){
+        font-size:18px;
+        width:100px;
+        height: 60px;
+        margin-left:525px;
+        
+    }
+`;
+
